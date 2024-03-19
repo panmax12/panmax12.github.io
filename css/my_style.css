@@ -27,7 +27,7 @@ p{
     color: blueviolet
 }    
 
-.expedu_icon{
+.expedu_icon:hover{
     background-color: blueviolet;
     color: white;
 }
