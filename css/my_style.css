@@ -23,6 +23,7 @@ p{
         font-family: "Noto Sans TC", serif;
     }
     .bg-primary {
+        
         background-color: black; !important;
         background-image: url(../assets/img/背景2.jpg);
         background-repeat: no-repeat;
