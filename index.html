@@ -69,22 +69,28 @@
                     <title>CSS Box Model 示例</title>
                     <style>
                         .box {
-                            width: 200px; /* 盒子的宽度 */
-                            height: 200px; /* 盒子的高度 */
+                            width: 300px; /* 盒子的宽度 */
                             padding: 20px; /* 内边距 */
                             border: 2px solid #000; /* 边框 */
                             margin: 20px; /* 外边距 */
+                        }
+                        .box img {
+                            width: 100%; /* 图片宽度 */
+                            height: auto; /* 图片高度自动调整 */
+                            display: block; /* 让图片居中显示 */
                         }
                     </style>
                     </head>
                     <body>
                     
                     <div class="box">
-                        这是一个示例盒子
+                        <img src="example.jpg" alt="示例图片">
+                        <p>这是一段示例文字。</p>
                     </div>
                     
                     </body>
                     </html>
+                    
                     
                     <div class="social-icons">
                         <a class="social-icon" href="#!"><i class="fab fa-linkedin-in"></i></a>
